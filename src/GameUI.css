@@ -1,0 +1,47 @@
+.GameUI {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.Trigger {
+  width: 150px;
+  height: 150px;
+  border: 10px solid red;
+  background-color: orange;
+  border-radius: 50%;
+  color: white;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.Trigger:hover {
+  cursor: pointer;
+}
+
+.Reset {
+  width: 150px;
+  height: 150px;
+  border: 10px solid white;
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.Reset:hover {
+  cursor: pointer;
+}
+
+.Enemy {
+  color: red;
+}
+
+.Player {
+  color: rgb(92, 230, 92);
+}
